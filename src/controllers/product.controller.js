@@ -60,4 +60,4 @@ productController.delete = async (req, res) => {
 
 }
 
-modules.export = productController;
+module.exports = productController;
