@@ -20,4 +20,6 @@ const Authentication = (req, res, next) => {
     })
 }
 
-module.exports = { Authentication };
+const Authorization = () => { }
+
+module.exports = { Authentication, Authorization };
