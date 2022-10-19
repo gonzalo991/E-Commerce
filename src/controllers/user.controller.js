@@ -37,4 +37,4 @@ userController.deleteCart = async (req, res) => {
     }
 }
 
-modules.export = userController;
+module.exports = userController;
