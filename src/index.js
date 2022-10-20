@@ -14,8 +14,8 @@ app.use(cors);
 
 
 //Default Router
-app.get("/", (request, response) => {
-    response.send("<h1>Hola, bienvenid@s a la API</h1>")
+app.get("/", (req, res) => {
+    res.send("Hola, bienvenid@s a la API")
 });
 
 app.use('/api', require('./routes/api.routes'));
